@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">latihan5</string>
+    <string name="move_activity">16dp</string>
+    <string name="move_with_data">16dp</string>
+    <string name="dial_number">16dp</string>
+</resources>
