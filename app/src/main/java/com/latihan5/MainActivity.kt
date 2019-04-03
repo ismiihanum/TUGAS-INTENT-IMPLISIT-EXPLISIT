@@ -18,11 +18,13 @@ class MainActivity : AppCompatActivity() {
         }
         btnPindahActivityIntentBundle.setOnClickListener {
             val intent : Intent = Intent (this, IntentBundleActivity::class.java)
-            intent.putExtra("NAMAKU", "ISMI LATIFAH HANUM")
-            intent.putExtra("NPM", "16670015")
-            intent.putExtra("KELAS", "INFORMATIKA 6A")
-            intent.putExtra("ALAMAT", "BATANG")
-            intent.putExtra("FOTO", R.drawable.aku)
+            intent.putExtra("Nama Panggilan", "Hanum")
+            intent.putExtra("TTL", "Batang,05 Desember 1998")
+            intent.putExtra("Alamat Rumah", "Ds.Kembanglangit Kec.Blado Kab.Batang")
+            intent.putExtra("Hobby", "Membaca,Menulis,Menonton")
+            intent.putExtra("Agama", "Islam")
+            intent.putExtra("Email", "ismihanum05@gmail.com")
+            intent.putExtra("FOTO", R.drawable.hanum)
 
             startActivity(intent)
 

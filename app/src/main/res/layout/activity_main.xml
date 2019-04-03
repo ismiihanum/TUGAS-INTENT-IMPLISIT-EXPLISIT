@@ -10,7 +10,7 @@
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="pindah activity"
+            android:text="CAMERA"
             android:textColor="@android:color/holo_red_dark"
             android:textSize="20dp"
             android:id="@+id/btnPindahActivityImplisit"/>
@@ -24,7 +24,7 @@
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="pindah activity"
+            android:text="PROFILE"
             android:textColor="@android:color/holo_red_dark"
             android:textSize="20dp"
             android:id="@+id/btnPindahActivityIntentBundle"/>
