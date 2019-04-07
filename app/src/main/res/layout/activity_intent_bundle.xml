@@ -9,7 +9,6 @@
         tools:context=".IntentBundleActivity">
 
     <LinearLayout
-            android:background="@drawable/bc"
             android:layout_width="match_parent"
             android:layout_height="280dp"
             android:orientation="vertical">
@@ -74,9 +73,9 @@
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
                             android:layout_width="match_parent"
-                            android:textColor="@color/colorPrimary"
+                            android:textColor="@android:color/black"
                             android:layout_height="wrap_content"
-                            android:text="Hanum Cantik"/>
+                            android:text="Hanum"/>
                 </LinearLayout>
                 <LinearLayout
                         android:layout_width="match_parent"
@@ -107,6 +106,7 @@
                             android:layout_gravity="center_vertical"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
                             android:text="Batang, 05 Desember 1998"/>
                 </LinearLayout>
                 <LinearLayout
@@ -137,6 +137,7 @@
                             android:layout_gravity="center_vertical"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
                             android:layout_weight="1"
                             android:text="Ds.Kembanglangit Kec Blado Kab.Batang"/>
                 </LinearLayout>
@@ -168,6 +169,7 @@
                             android:layout_gravity="center_vertical"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
                             android:layout_weight="1"
                             android:text="Membaca,Menulis,Menonton"/>
                 </LinearLayout>
@@ -198,6 +200,7 @@
                             android:textStyle="bold"
                             android:layout_gravity="center_vertical"
                             android:layout_width="match_parent"
+                            android:textColor="@android:color/black"
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
                             android:text="Islam"/>
@@ -230,6 +233,7 @@
                             android:layout_gravity="center_vertical"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
                             android:layout_weight="1"
                             android:text="ismihanum05@gmail.com"/>
                 </LinearLayout>

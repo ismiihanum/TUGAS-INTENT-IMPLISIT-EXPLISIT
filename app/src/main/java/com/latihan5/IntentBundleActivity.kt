@@ -11,7 +11,6 @@ class IntentBundleActivity : AppCompatActivity() {
         setContentView(R.layout.activity_intent_bundle)
 
         val namapanggilan = intent.getStringExtra("Nama Panggilan")
-        val hanum = intent.getStringExtra("Hanum")
         val ttl = intent.getStringExtra("TTL")
         val alamatrumah = intent.getStringExtra("Alamat Rumah")
         val hobby = intent.getStringExtra(" Hobby")
