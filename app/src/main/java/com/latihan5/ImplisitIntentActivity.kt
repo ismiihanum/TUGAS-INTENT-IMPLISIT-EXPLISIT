@@ -41,6 +41,9 @@ class ImplisitIntentActivity : AppCompatActivity() {
 
 
         }
+        btnbuka.setOnClickListener {
+            buka(it)
+        }
     }
 
     fun dispatchTakePictureIntent() {
