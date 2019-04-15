@@ -1,12 +1,9 @@
 package com.latihan5
 
-import android.hardware.Camera
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
 import com.budiyev.android.codescanner.*
-import com.kotlinpermissions.KotlinPermissions
-import java.util.jar.Manifest
 
 
 class ExplisitIntentActivity : AppCompatActivity() {
@@ -48,6 +45,15 @@ class ExplisitIntentActivity : AppCompatActivity() {
         scannerView.setOnClickListener {
             codeScanner.startPreview()
         }
+    }
+    override fun onResume() {
+        super.onResume()
+        codeScanner.startPreview()
+    }
+
+    override fun onPause() {
+        codeScanner.releaseResources()
+        super.onPause()
     }
 
 }

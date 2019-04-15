@@ -9,12 +9,22 @@ import android.os.Bundle
 import android.os.Environment.getExternalStorageDirectory
 import android.provider.MediaStore
 import android.util.Log
+import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_implisit_intent.*
 import java.io.File
 
 @Suppress("DEPRECATED_IDENTITY_EQUALS", "NULLABILITY_MISMATCH_BASED_ON_JAVA_ANNOTATIONS")
 class ImplisitIntentActivity : AppCompatActivity() {
+
+    fun buka(view: View) {
+        val url = "https://youtube.com"
+        val bukabrowser = Intent(Intent.ACTION_VIEW)
+        bukabrowser.data = Uri.parse(url)
+        startActivity(bukabrowser)
+    }
+
+
     val REQUEST_IMAGE_CAPTURE = 0
     private val TAKE_PICTURE = 1
     private var imageUri: Uri? = null
@@ -23,6 +33,7 @@ class ImplisitIntentActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_implisit_intent)
+
 
         btnCapture.setOnClickListener {
            dispatchTakePictureIntent()

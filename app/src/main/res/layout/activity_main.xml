@@ -11,14 +11,14 @@
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CAMERA"
+            android:text="CAMERA and YOUTUBE"
             android:textColor="@android:color/holo_red_dark"
             android:textSize="20dp"
             android:id="@+id/btnPindahActivityImplisit"/>
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="SCHEDULE"
+            android:text="SCANNER"
             android:textColor="@android:color/holo_red_dark"
             android:textSize="20dp"
             android:id="@+id/btnPindahActivityExplisit"/>
