@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("Hobby", "Membaca,Menulis,Menonton")
             intent.putExtra("Agama", "Islam")
             intent.putExtra("Email", "ismihanum05@gmail.com")
-            intent.putExtra("FOTO", R.drawable.hanum)
+            intent.putExtra("FOTO", "https://drive.google.com/drive/u/0/my-drive")
 
             startActivity(intent)
 
