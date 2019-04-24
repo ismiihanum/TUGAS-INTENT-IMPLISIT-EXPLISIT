@@ -44,6 +44,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
+        btnWebView.setOnClickListener {
+            startActivity(Intent (this,WebViewActivity::class.java ))
+        }
     }
 
 }
